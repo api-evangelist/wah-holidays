@@ -1,4 +1,16 @@
 aid: wah-holidays
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wah-holidays.png
 name: WAH Holidays
 description: WAH Holidays is a company surfaced as a portfolio company of 500-global and added to the
   API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 apis: []
@@ -23,3 +35,14 @@ maintainers:
 common:
 - type: Website
   url: https://weareholidays.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: >-
+    Domain weareholidays.com resolves (205.147.110.233) but refuses connections
+    on ports 80 and 443 (all HTTP/HTTPS probes returned 000); site is offline.
+    WeAreHolidays is a 2011 New Delhi consumer travel-package booking platform
+    (500 Global portfolio). No reachable API, developer portal, docs, well-known,
+    or package surface found. No artifacts created.
